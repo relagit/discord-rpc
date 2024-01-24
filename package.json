@@ -1,0 +1,38 @@
+{
+    "name": "@relagit/discord-rpc",
+    "main": "dist/plugin.js",
+    "version": "1.0.1",
+    "description": "Enables Discord Rich Presence for RelaGit",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite build -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/relagit/discord-rpc.git"
+    },
+    "type": "module",
+    "keywords": [
+        "relagit",
+        "discord",
+        "discord-rpc",
+        "rich-presence",
+        "rich",
+        "presence",
+        "rpc"
+    ],
+    "author": "TheCommieAxolotl",
+    "files": [
+        "relagit.json",
+        "dist",
+        "package.json",
+        "README.md"
+    ],
+    "devDependencies": {
+        "@xhayper/discord-rpc": "^1.1.2",
+        "discord-api-types": "^0.37.67",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.12",
+        "@types/node": "^20.11.5"
+    }
+}

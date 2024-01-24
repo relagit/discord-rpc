@@ -1,0 +1,4 @@
+{
+    "native": "dist/native.js",
+    "plugin": "dist/plugin.js"
+}
