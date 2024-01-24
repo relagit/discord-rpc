@@ -1,3 +1,6 @@
+/// <reference path="../relagit.d.ts" />
+/// <reference path="../global.d.ts" />
+
 import { Workflow } from "relagit:actions";
 
 export default new Workflow({
