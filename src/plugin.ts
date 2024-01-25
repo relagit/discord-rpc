@@ -19,7 +19,7 @@ export default new Workflow({
                               url: repo.remote,
                           },
                       ]
-                    : [],
+                    : undefined,
             }));
         },
     },

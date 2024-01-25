@@ -1,7 +1,7 @@
 {
     "name": "@relagit/discord-rpc",
     "main": "dist/plugin.js",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Enables Discord Rich Presence for RelaGit",
     "scripts": {
         "build": "vite build",
