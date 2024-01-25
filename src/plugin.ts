@@ -12,7 +12,7 @@ export default new Workflow({
                 ...(prev || {}),
                 details: repo ? `In ${repo.name}` : "Browsing Repositories",
                 state: file ? `Viewing ${file.path}/${file.name}` : "Browsing Repository",
-                buttons: repo
+                buttons: repo?.remote
                     ? [
                           {
                               label: "View Repository",
