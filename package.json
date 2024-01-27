@@ -30,10 +30,11 @@
         "README.md"
     ],
     "devDependencies": {
+        "@relagit/vite": "^1.0.0",
+        "@types/node": "^20.11.5",
         "@xhayper/discord-rpc": "^1.1.2",
         "discord-api-types": "^0.37.67",
         "typescript": "^5.3.3",
-        "vite": "^5.0.12",
-        "@types/node": "^20.11.5"
+        "vite": "^5.0.12"
     }
 }
