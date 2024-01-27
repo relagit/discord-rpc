@@ -7,6 +7,7 @@
         "build": "vite build",
         "dev": "vite build -w"
     },
+    "license": "LGPL-3.0-or-later",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/relagit/discord-rpc.git"
