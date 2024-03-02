@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^0.37.67
     version: 0.37.67
   relagit:
-    specifier: ^0.12.3
-    version: 0.12.3
+    specifier: 0.12.10-2
+    version: 0.12.10-2
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -354,6 +354,10 @@ packages:
       undici-types: 5.26.5
     dev: true
 
+  /@types/primer__octicons@19.6.3:
+    resolution: {integrity: sha512-lvDS7/5uZLCnG/h3W5fzMjLsMKAlu2Y4nF615U6FtwMarwCD76l9TvkD8nn0g0fIb2gg81/NsRa2LFvksvukRQ==}
+    dev: true
+
   /@xhayper/discord-rpc@1.1.2:
     resolution: {integrity: sha512-QOeSFRqEK/pfSNl9PSIIi6ypKzD2zy1B8IHdzpvw4WsqXNoJaymfg9lE0wsei4zD5eT2bfnlcILBW9ociJMnKw==}
     engines: {node: '>=14.18.0'}
@@ -504,8 +508,10 @@ packages:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
     dev: true
 
-  /relagit@0.12.3:
-    resolution: {integrity: sha512-feQDnOzpcT4Xnqm2cFir5HOrQF1XmsgLYRwpz8xUUwIRG5GgQPOjWC6n+n2RrUMSQpaqJpflDbYe9UR+NWhh/A==}
+  /relagit@0.12.10-2:
+    resolution: {integrity: sha512-rgMu4kXFerx7Dg5B6Z7NyuCyD40WkX6qqxJSdmPXAbYp3hqmHTJ2CRTR74WRr2/jFg5vxpktBpR9DV44TYKc0Q==}
+    dependencies:
+      '@types/primer__octicons': 19.6.3
     dev: true
 
   /rollup@4.9.6:
